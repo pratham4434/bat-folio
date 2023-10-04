@@ -37,11 +37,10 @@ const Portfolio = () => {
                 {filters.map((item, index) => (
                     <div
                         key={index}
-                        className={` bg-[#252525] rounded-lg py-[10px] px-[17px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] cursor-pointer whitespace-nowrap ${
-                            selectedTag === item.id
-                                ? "bg-[#EFB946] text-black"
-                                : ""
-                        }`}
+                        className={` bg-[#252525] rounded-lg py-[10px] px-[17px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] cursor-pointer whitespace-nowrap ${selectedTag === item.id
+                            ? "bg-[#EFB946] text-black"
+                            : ""
+                            }`}
                         onClick={() => filterHandler(item.id)}
                     >
                         {item.name}
@@ -58,15 +57,17 @@ const Portfolio = () => {
                             key={index}
                             className="flex flex-col gap-4 cursor-pointer"
                         >
-                            <div className="bg-[#000] rounded-[20px] aspect-video overflow-hidden shadow-md shadow-gray-800">
-                                <img
-                                    src={item.image}
-                                    className="transition-transform hover:-translate-y-[25%] hover:duration-2500 ease-linear"
-                                />
-                            </div>
-                            <div className="text-[20px] 2xl:text-[24px] text-[#CCCCCC] text-center">
-                                {item.name}
-                            </div>
+                            <a href={item.link}>
+                                <div onClick={() => { console.log(item.link) }} className="bg-[#000] rounded-[20px] aspect-video overflow-hidden shadow-md shadow-gray-800">
+                                    <img
+                                        src={item.image}
+                                        className="transition-transform hover:-translate-y-[25%] hover:duration-2500 ease-linear"
+                                    />
+                                </div>
+                                <div className="text-[20px] 2xl:text-[24px] text-[#CCCCCC] text-center p-4">
+                                    {item.name}
+                                </div>
+                            </a>
                         </Div>
                     );
                 })}

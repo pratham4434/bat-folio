@@ -30,31 +30,42 @@ export const projects = [
         name: "QStack - P2P tutoring",
         image: p1,
         tags: ["deployed"],
+        link: "https://github.com/pratham4434/diversion-qstack",
     },
     {
         name: "My Portfolio",
         image: p2,
         tags: [ "under-dev", "deployed"],
+        link: "https://bat-folio.vercel.app/",
+
     },
     {
         name: "Popcorn-IMDB",
         image: p3,
         tags: ["under-dev","hackathons"],
+        link: "https://github.com/pratham4434/popcorn-web-fs",
+
     },
     {
         name: "BoomBot - An Ecom Website",
         image: p4,
         tags: ["deployed"],
+        link: "https://github.com/pratham4434/BoomBot-ecom",
+
     },
     {
         name: "Open-AI Website",
         image: p5,
         tags: ["deployed"],
+        link: "https://github.com/pratham4434/GPT3-JSM-AI",
+
     },
     {
         name: "SavourySearches",
         image: p6,
         tags: ["hackathons"],
+        link: "https://github.com/pratham4434/SavourySearches",
+
     },
 ];
 

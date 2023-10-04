@@ -1,13 +1,16 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
-
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import Wrapper from "./Wrapper";
 import man from "../assets/batman3.png";
 import externalLinkIcon from "../assets/bat-black.png";
 import gmailIcon from "../assets/email-icon.png";
 import { scrollTo } from "../helper";
 import { useFollowPointer } from "./useFollowPointer";
-
 const HeroBanner = () => {
     const ref = useRef(null);
     const { x, y } = useFollowPointer(ref);
@@ -119,6 +122,13 @@ const HeroBanner = () => {
                                 <a href="https://drive.google.com/file/d/1tJDnEaa6H90XCX-gTzQEYdPtqO244G-g/view?usp=sharing">Batman's Resume</a>
                             </span>
                         </button>
+                        <a href="https://www.linkedin.com/in/pratham-sharma-abcabcabc/"><LinkedInIcon /></a>
+                        <a href="https://github.com/pratham4434"><GitHubIcon /></a>
+                        <a href="https://www.instagram.com/whereyash/"><InstagramIcon /></a>
+                        {/* <a href="https://twitter.com/PrathamSharma_1"><TwitterIcon /></a> */}
+                        <a href="https://www.youtube.com/@BassBangers"><YouTubeIcon /></a>
+
+                        
 
                     </div>
                     {/* END */}

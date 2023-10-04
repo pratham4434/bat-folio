@@ -64,7 +64,7 @@ const AboutMe = () => {
                 {/* HEADING END */}
 
                 {/* PARAGRAPH START */}
-                <div className="flex items-start justify-between  py-[50px] md:py-[100px] relative">
+                <div className="flex flex-wrap-reverse md:flex-nowrap items-start justify-between  py-[50px] md:py-[100px] relative">
                     <div>
                         <Div className=" text-slate-300 max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
                             Attention citizens! Amidst the rising tide of pretending Batmans, I, Pratham, reveal my
@@ -96,11 +96,13 @@ const AboutMe = () => {
                             the realm of open-source, I contribute actively. Have certifications in NodeJS,
                             Next.js, React, and recognition as a Postman API Fundamentals Student Expert. Together,
                             let's script a heroic tech narrative!
-
+                            <br/>
+                            <br/>
+                            (Ps. - I have a YouTube channel too (Bass Bangers) with 70k+ subs and around 30M+ total views.)
                         </Div>
                         {/* PARAGRAPH END */}
                     </div>
-                    <div className="flex text-right flex-wrap justify-center gap-2 md:gap-0 md:flex-col text-[40px] md:text-[90px] 2xl:text-[120px] leading-[40px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase text-gradient mb-10 md:mb-0 md:sticky top-2">
+                    <div className="flex text-right flex-wrap  justify-center gap-2 md:gap-0 md:flex-col text-[40px] md:text-[70px]  2xl:text-[120px] leading-[40px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase text-gradient mb-10 md:mb-0 md:sticky top-2">
                         {/* <img class="h-[360px] max-w-xl rounded-lg drop-shadow-xl " src={yashhack} alt="" /> */}
 
 
