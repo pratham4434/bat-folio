@@ -70,7 +70,7 @@ const Skills = () => {
 
 {/* py */}
 
-                <Div className="grid grid-cols-4 gap-3 md:grid-cols-11 relative">
+                <Div className="grid grid-cols-4 gap-3 md:grid-cols-11 relative ">
                     <SkillIcon path={sk1} />
                     <SkillIcon path={sk2} />
                     <SkillIcon path={sk3} />

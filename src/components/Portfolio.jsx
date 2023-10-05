@@ -32,7 +32,7 @@ const Portfolio = () => {
             {/* SECTION HEADING END */}
 
             {/* FILTER TAGS START */}
-            <Div className="flex justify-start md:justify-center gap-[10px] mb-[50px] overflow-auto ">
+            <Div className="flex justify-center md:justify-center gap-[10px] mb-[50px] overflow-auto ">
                 {filters.map((item, index) => (
                     <div
                         key={index}

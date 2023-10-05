@@ -8,7 +8,7 @@ import Long2 from "./components/Long2";
 
 function App() {
     return (
-        <div className="App">
+        <div className="App" style={{height:"1000px"}}>
             <HeroBanner />
             {/* <Long2/> */}
             <AboutMe />

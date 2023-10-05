@@ -17,13 +17,13 @@ const HeroBanner = () => {
     return (
         <div
             id="hero"
-            className="w-full h-[100vh] relative bg-[#111111] overflow-hidden"
+            className="w-full h-full relative bg-[#111111] overflow-hidden"
         >
             {/* BACKGROUND ELEMENTS FOR DESKTOP START */}
             <motion.span
                 ref={ref}
                 animate={{ x, y }}
-                className="hidden md:block sec-1-bg-gradient-1-desktop md:w-[1120px] 2xl:w-[1420px] md:h-[1119px] lg:h-[100%] 2xl:h-[100%] absolute md:left-[1000px] 2xl:left-[1309px] -top-[709px]"
+                className="hidden md:block sec-1-bg-gradient-1-desktop  md:w-[1120px] 2xl:w-[1420px] md:h-[100vh] lg:h-[100%] 2xl:h-[100%] absolute md:left-[1000px] 2xl:left-[1309px] -top-[709px]"
             />
             {/* //1419px */}
             <span className="hidden md:block sec-1-bg-gradient-2-desktop md:w-[1120px] 2xl:w-[1420px] md:h-[1119px] lg:h-[100%] 2xl:h-[100%] absolute left-[105px] top-[672px] md:top-[500px] 2xl:top-[672px]" />
@@ -79,7 +79,7 @@ const HeroBanner = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <h1 className="text-[50px] md:text-[120px] 2xl:text-[189px] leading-[50px] md:leading-[125px]  2xl:leading-[192px] font-oswald uppercase">
+                    <h1 className="text-[50px] md:text-[8rem] 2xl:text-[189px] leading-[50px] md:leading-[125px]  2xl:leading-[192px] font-oswald uppercase">
                         The dark dev.
                         <br className="invisible md:visible" />
                         <h1 className="text-red-400">
@@ -100,7 +100,7 @@ const HeroBanner = () => {
                         🦇 It's me{" "}
                         <span className="font-semibold text-blue-400">BATMAN!!</span>
                     </div>
-                    <div className="max-w-[510px] z-10">
+                    <div className="max-w-[510px] z-10 ">
                         The Dark Dev who scales frontend heights,
                         dives into the backend abyss,
                         ensures Gotham's digital realm
@@ -149,7 +149,7 @@ const HeroBanner = () => {
 
                 {/* PERSON BLOCK START */}
                 <motion.div
-                    className="w-[800px]  md:w-[1060px] 2xl:w-[1275px] absolute bottom-0 left-[50%] -translate-x-1/2"
+                    className="flex w-[100%]  md:w-[100%] 2xl:w-[1275px] absolute bottom-0 left-[50%] -translate-x-1/2"
                     initial={{ y: 200, x: "-50%" }}
                     animate={{ y: 0 }}
                     transition={{ duration: 0.5 }}
