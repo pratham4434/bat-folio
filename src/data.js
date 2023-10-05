@@ -29,7 +29,7 @@ export const projects = [
     {
         name: "QStack - P2P tutoring",
         image: p1,
-        tags: ["deployed"],
+        tags: ["under-dev","hackathons"],
         link: "https://github.com/pratham4434/diversion-qstack",
     },
     {
@@ -42,7 +42,7 @@ export const projects = [
     {
         name: "Popcorn-IMDB",
         image: p3,
-        tags: ["under-dev","hackathons"],
+        tags: ["deployed"],
         link: "https://github.com/pratham4434/popcorn-web-fs",
 
     },

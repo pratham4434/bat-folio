@@ -6,7 +6,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Wrapper from "./Wrapper";
-import man from "../assets/batman3.png";
+import man from "../assets/batmanbest.png";
 import externalLinkIcon from "../assets/bat-black.png";
 import gmailIcon from "../assets/email-icon.png";
 import { scrollTo } from "../helper";
@@ -23,9 +23,10 @@ const HeroBanner = () => {
             <motion.span
                 ref={ref}
                 animate={{ x, y }}
-                className="hidden md:block sec-1-bg-gradient-1-desktop md:w-[1120px] 2xl:w-[1420px] md:h-[1119px] 2xl:h-[1419px] absolute md:left-[1000px] 2xl:left-[1309px] -top-[709px]"
+                className="hidden md:block sec-1-bg-gradient-1-desktop md:w-[1120px] 2xl:w-[1420px] md:h-[1119px] lg:h-[100%] 2xl:h-[100%] absolute md:left-[1000px] 2xl:left-[1309px] -top-[709px]"
             />
-            <span className="hidden md:block sec-1-bg-gradient-2-desktop md:w-[1120px] 2xl:w-[1420px] md:h-[1119px] 2xl:h-[1419px] absolute left-[105px] top-[672px] md:top-[500px] 2xl:top-[672px]" />
+            {/* //1419px */}
+            <span className="hidden md:block sec-1-bg-gradient-2-desktop md:w-[1120px] 2xl:w-[1420px] md:h-[1119px] lg:h-[100%] 2xl:h-[100%] absolute left-[105px] top-[672px] md:top-[500px] 2xl:top-[672px]" />
             {/* BACKGROUND ELEMENTS FOR DESKTOP END */}
 
             {/* BACKGROUND ELEMENTS FOR DESKTOP START */}
@@ -153,8 +154,8 @@ const HeroBanner = () => {
                     animate={{ y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-
-                    <img className="w-[100%] drop-shadow-2xl" style={{ filter: "brightness(93%)", filter: "contrast(95%)" }} src={man} alt="" />
+{/* style={{ filter: "brightness(93%)", filter: "contrast(95%)" }} */}
+                    <img className="w-[100%] drop-shadow-2xl" style={{  filter: "contrast(130%)" ,imageRendering: "crisp-edges"}} src={man} alt="" />
                     {/* <img className="w-[100%] drop-shadow-2xl" style={{}} src={fog} alt="" /> */}
 
                     {/* HIRE ME BUTTON START */}

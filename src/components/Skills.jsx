@@ -7,16 +7,24 @@ import Portfolio from "./Portfolio";
 import Div from "./Div";
 
 // IMAGES
-import sk1 from "../assets/batman-512.png";
-import sk2 from "../assets/batman-2-512.png";
-import sk3 from "../assets/batman-3-512.png";
-import sk4 from "../assets/batman-13-512.png";
-import sk5 from "../assets/batman-14-512.png";
-import sk6 from "../assets/batman-17-512.png";
-import sk7 from "../assets/batman-18-512.png";
+
 import pe1 from "../assets/sec-3-p-e-1.png";
 import pe2 from "../assets/sec-3-p-e-2.png";
 import pe3 from "../assets/sec-3-p-e-3.png";
+
+
+import sk1 from "../assets/sk-1.png";
+import sk2 from "../assets/logos/git.png";
+import sk3 from "../assets/logos/javascript.png";
+import sk4 from "../assets/logos/nextjs.png";
+import sk5 from "../assets/logos/nodejs.png";
+import sk6 from "../assets/logos/python.png";
+import sk7 from "../assets/logos/redux.png";
+import sk8 from "../assets/logos/ts.png";
+import sk9 from "../assets/logos/getpostman.svg";
+import sk10 from "../assets/sk-11.png";
+import sk11 from "../assets/sk-5.png";
+
 
 const Skills = () => {
     const { scrollY } = useScroll();
@@ -37,7 +45,32 @@ const Skills = () => {
             {/* BACKGROUND ELEMENTS END */}
             <Wrapper>
                 {/* SKILL ICONS START */}
-                <Div className="flex justify-center item-center grid-cols-4 gap-3 md:grid-cols-11 relative">
+                {/* <Div className="flex justify-center item-center grid-cols-4 gap-3 md:grid-cols-11 relative">
+                    <SkillIcon path={sk1} />
+                    <SkillIcon path={sk2} />
+                    <SkillIcon path={sk3} />
+                    <SkillIcon path={sk4} />
+                    <SkillIcon path={sk5} />
+                    <SkillIcon path={sk6} />
+                    <SkillIcon path={sk7} /> */}
+                    {/* <SkillIcon path={sk8} /> */}
+                    {/* <SkillIcon path={sk9} /> */}
+                    {/* <SkillIcon path={sk10} /> */}
+                    {/* <SkillIcon path={sk11} /> */}
+                {/* </Div> */}
+
+{/* photoshop */}
+{/* reactjs */}
+{/* nextjs */}
+{/* figma */}
+{/* JS */}
+{/* ts */}
+{/* nodejs */}
+{/* redux */}
+
+{/* py */}
+
+                <Div className="grid grid-cols-4 gap-3 md:grid-cols-11 relative">
                     <SkillIcon path={sk1} />
                     <SkillIcon path={sk2} />
                     <SkillIcon path={sk3} />
@@ -45,10 +78,11 @@ const Skills = () => {
                     <SkillIcon path={sk5} />
                     <SkillIcon path={sk6} />
                     <SkillIcon path={sk7} />
-                    {/* <SkillIcon path={sk8} /> */}
-                    {/* <SkillIcon path={sk9} /> */}
-                    {/* <SkillIcon path={sk10} /> */}
-                    {/* <SkillIcon path={sk11} /> */}
+                    <SkillIcon path={sk8} />
+                    <SkillIcon path={sk9} />
+                    <SkillIcon path={sk10} />
+                    <SkillIcon path={sk11} />
+                   
                 </Div>
                 <Portfolio />
                 {/* <Achievements /> */}

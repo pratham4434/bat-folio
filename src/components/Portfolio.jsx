@@ -26,8 +26,7 @@ const Portfolio = () => {
                     Batman's Projects
                 </div>
                 <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-[#CCCCCC] text-center">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                    Explore Gotham's Digital Realm: A Showcase of My Code Vigilance and Web Superhero Endeavors!
                 </div>
             </Div>
             {/* SECTION HEADING END */}
