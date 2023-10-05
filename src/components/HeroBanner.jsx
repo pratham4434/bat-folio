@@ -46,7 +46,7 @@ const HeroBanner = () => {
                         <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
                             <img src={gmailIcon} alt="" className="w-[18px]" />
                         </div>
-                        <div>prathamsharmafaangm@gmail.com</div>
+                        <div style={{cursor:"pointer"}} onClick={() => scrollTo("contact")}> prathamsharmafaangm@gmail.com</div>
                     </div>
                     <ul className="flex 2xl:text-[20px]">
                         <li
@@ -120,14 +120,14 @@ const HeroBanner = () => {
                     <div className="flex justify-center items-center gap-1">
                         <button class="relative inline-flex items-center justify-center p-0.5  mr-2 overflow-hidden text-lg font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
                             <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                <a href="https://drive.google.com/file/d/1tJDnEaa6H90XCX-gTzQEYdPtqO244G-g/view?usp=sharing">Batman's Resume</a>
+                                <a href="https://drive.google.com/file/d/1tJDnEaa6H90XCX-gTzQEYdPtqO244G-g/view?usp=sharing" target="_blank">Batman's Resume</a>
                             </span>
                         </button>
-                        <a href="https://www.linkedin.com/in/pratham-sharma-abcabcabc/"><LinkedInIcon /></a>
-                        <a href="https://github.com/pratham4434"><GitHubIcon /></a>
-                        <a href="https://www.instagram.com/whereyash/"><InstagramIcon /></a>
+                        <a href="https://www.linkedin.com/in/pratham-sharma-abcabcabc/" target="_blank"><LinkedInIcon /></a>
+                        <a href="https://github.com/pratham4434" target="_blank"><GitHubIcon /></a>
+                        <a href="https://www.instagram.com/whereyash/" target="_blank"><InstagramIcon /></a>
                         {/* <a href="https://twitter.com/PrathamSharma_1"><TwitterIcon /></a> */}
-                        <a href="https://www.youtube.com/@BassBangers"><YouTubeIcon /></a>
+                        <a href="https://www.youtube.com/@BassBangers" target="_blank"><YouTubeIcon /></a>
 
                         
 
