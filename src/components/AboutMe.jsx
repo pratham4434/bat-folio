@@ -67,12 +67,12 @@ const AboutMe = () => {
                 <div className="flex flex-wrap-reverse md:flex-nowrap items-start justify-between  py-[50px] md:py-[100px] relative">
                     <div>
                         <Div className=" text-slate-300 max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                            Attention citizens! Amidst the rising tide of pretending Batmans, I, Pratham, reveal my
+                            <span className="text-red-400">Attention citizens!</span> Amidst the rising tide of pretending Batmans, I, Pratham, reveal my
                             true identity as the genuine Batman. By day, I pursue a Data Science degree at Heritage
                             Institute of Technology in Kolkata and by the night I debug Gotham's digital shadows. My
-                            technical arsenal includes proficiency in C, C++, Python, R, and JavaScript/TypeScript,
-                            complemented by ascendancy in Git/Github, UI libraries, Tailwindcss, Postman, Webpack, Figma,
-                            Photoshop, and WebSockets.
+                            technical arsenal includes proficiency in <span className="text-blue-400"> C, C++, Python, R, and JavaScript and TypeScript, </span>
+                            complemented by ascendancy in <span className="text-blue-400"> Git/Github, UI libraries, Tailwindcss, Postman, Webpack, Figma,
+                                Photoshop, and WebSockets </span>.
 
 
                         </Div>
@@ -80,8 +80,8 @@ const AboutMe = () => {
 
                         {/* PARAGRAPH START */}
                         <Div className="text-slate-300 max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                            Navigating acclaimed frameworks like ReactJs, NextJs, ExpressJs, NodeJs, and Redux and Flux,
-                            I command databases like MongoDB, MySQL, Firebase Firestore, and SQLite. Noteworthy
+                            Navigating acclaimed frameworks like <span className="text-blue-400"> ReactJs, NextJs, ExpressJs, NodeJs, Redux </span>and <span className="text-blue-500">Flux, </span>
+                            I command databases like <span className="text-blue-400"> MongoDB, MySQL, Firebase Firestore, and SQLite</span>. Noteworthy
                             projects in my Bat-Belt include QStack, an instant doubt-solving platform with video-chat
                             features, and BoomBot, a personal ecommerce venture for headphones and watches. Popcorn,
                             my IMDb website clone, stands testament to my prowess.
@@ -91,14 +91,14 @@ const AboutMe = () => {
 
                         {/* PARAGRAPH START */}
                         <Div className=" text-slate-300 max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] relative">
-                            Achievements adorn my Batcave, including 2nd Runner Up at Status Code 0 hackathon organized by IIIT Kalyani,
-                            winning the Postman track at IISER Kolkata, State rank holder, and gold medalist in multiple Olympiads. In
+                            Achievements adorn my Batcave, including  <a href="https://devfolio.co/projects/savoury-searches-1b51" target="_blank"><span className="text-blue-400"> 2nd Runner Up at Status Code 0 </span></a>hackathon organized by IIIT Kalyani,
+                            <span className="text-blue-400"> Postman Track Winner</span> at IISER Kolkata, State rank holder, and gold medalist in multiple Olympiads. In
                             the realm of open-source, I contribute actively. Have certifications in NodeJS,
                             Next.js, React, and recognition as a Postman API Fundamentals Student Expert. Together,
                             let's script a heroic tech narrative!
-                            <br/>
-                            <br/>
-                            (Ps. - I have a YouTube channel too (Bass Bangers) with 70k+ subs and around 30M+ total views.)
+                            <br />
+                            <br />
+                            (Ps. - I have a YouTube channel too <a href="https://www.youtube.com/@BassBangers" target="_blank"><span className="text-red-400">(Bass Bangers)</span></a> with 70k+ subs and around 30M+ total views.)
                         </Div>
                         {/* PARAGRAPH END */}
                     </div>

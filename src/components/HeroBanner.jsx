@@ -102,7 +102,7 @@ const HeroBanner = () => {
                     </div>
                     <div className="max-w-[510px] z-10 ">
                         The Dark Dev who scales frontend heights,
-                        dives into the backend abyss,
+                        dives into the backend abyss and
                         ensures Gotham's digital realm
                         echoes his dynamic cape!
                     </div>
