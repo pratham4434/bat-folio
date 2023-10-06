@@ -1,5 +1,5 @@
 import p5 from "./assets/gpt.png";
-import p2 from "./assets/port.png";
+import p2 from "./assets/Bat-Folio.png";
 import p3 from "./assets/pop2.png";
 import p4 from "./assets/BoomBot.png";
 import p1 from "./assets/qstack2.png";
